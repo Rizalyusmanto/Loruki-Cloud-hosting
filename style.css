@@ -424,3 +424,26 @@ input[type='email'] {
         animation: slideInFromBottom 0.8s ease-in;
     }
 }
+
+@media (max-width: 375px) {
+    .navbar {
+        height: 110px;
+    }
+    .navbar .flex {
+        flex-direction: column;
+    }
+    .navbar ul {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    .showcase-text {
+        text-align: center;
+        margin-top: 50px;
+        animation: slideInFromTop 0.8s ease-in;
+    }
+    .showcase-form {
+        width: 300px;
+        left: -10px;
+        animation: slideInFromBottom 0.8s ease-in;
+    }
+}
