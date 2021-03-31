@@ -425,7 +425,9 @@ input[type='email'] {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px),
+(max-width: 489px),
+(max-width: 375px) {
     .navbar {
         height: 110px;
     }
@@ -443,7 +445,6 @@ input[type='email'] {
     }
     .showcase-form {
         width: 300px;
-        left: -10px;
         animation: slideInFromBottom 0.8s ease-in;
     }
 }
